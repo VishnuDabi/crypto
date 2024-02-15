@@ -1,0 +1,38 @@
+.stay__main__container {
+    width: 100%;
+    background-color: var(--darkblue2);
+    padding: 50px 0;
+    color: var(--white);
+}
+
+.stay__container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.stay__child1 {
+
+    flex: 1 1 30%
+}
+
+.stay__child1>* {
+    padding: 10px 0;
+}
+
+.stay__child2 {
+
+    flex: 1 1 80%;
+    display: grid;
+    grid-template-rows: 2;
+    gap: 20px;
+}
+
+.info__card {
+    width: 600px;
+    display: inline-block;
+    background-color: aliceblue;
+    flex-wrap: wrap;
+    display: block;
+}

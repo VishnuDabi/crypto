@@ -1,0 +1,15 @@
+.pwd-eye {
+    position: relative;
+}
+
+.eye-container {
+    position: absolute;
+    right: 10px;
+    top: 2px;
+}
+
+.eye-icon {
+
+    font-size: 24px;
+    fill: #372e2e;
+}

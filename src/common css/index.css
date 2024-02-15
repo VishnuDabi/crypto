@@ -1,0 +1,49 @@
+:root {
+    --white: #fff;
+    --bg: #120d35;
+    --black: black;
+    --darkblue: #182b4b;
+    --darkblue2: #1b2537
+}
+
+.icon {
+    font-size: 30px;
+    padding: 0 10px;
+}
+
+.relative-1 {
+    position: relative;
+}
+
+.mb__-8 {
+    margin-bottom: -8px;
+}
+
+.flex__container {
+    display: flex;
+}
+
+.sidebar__nav__left {}
+
+.theme__dark__blue {
+    background-color: var(--darkblue);
+    color: var(--white);
+}
+
+.bg__dark {
+    background-color: var(--darkblue);
+}
+
+.m__auto {
+    margin: auto;
+}
+
+.W__80 {
+    width: 80%;
+}
+
+
+.img {
+    height: 100%;
+    width: 100%;
+}

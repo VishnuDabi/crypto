@@ -1,0 +1,28 @@
+.usercoins__card {
+    width: 100%;
+}
+
+.user__coins__container {
+    display: flex;
+    justify-content: safe;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.coin__card {
+    flex-basis: 350px;
+    text-align: center;
+    height: 150px;
+    padding-top: 20px;
+    border: 1px solid rgb(245, 242, 242);
+    border-radius: 15px;
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.coin__card:hover {
+    transform: translateY(-10px);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}

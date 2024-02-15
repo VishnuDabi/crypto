@@ -1,0 +1,12 @@
+.slider__container {
+    position: relative;
+    background-color: var(--darkblue);
+    top: 90px;
+    height: 60vh;
+    margin-bottom: 90px;
+    color: var(--white);
+}
+
+.slider__box {
+    margin: auto;
+}

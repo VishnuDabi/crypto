@@ -1,0 +1,42 @@
+.secure__main__container {
+    width: 100%;
+    background-color: var(--darkblue2);
+    color: var(--white);
+    padding: 20px 0;
+}
+
+.secure__container {
+    width: 80%;
+    margin: auto;
+
+}
+
+.w__50 {
+    width: 50%;
+}
+
+
+
+.secure__container__txt>* {
+    padding: 10px 0;
+}
+
+.secure__flex__container {
+    display: flex;
+    align-items: center;
+
+}
+
+.slide-up {
+    animation: slide-up 0.75s cubic-bezier(0.65, 0, 0.35, 1) both
+}
+
+@keyframes slide-up {
+    0% {
+        transform: translateY(100px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}

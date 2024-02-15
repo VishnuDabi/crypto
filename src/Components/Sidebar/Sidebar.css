@@ -1,0 +1,38 @@
+.sidebar__container {
+    height: calc(100vh - 50px);
+    /* width: 250px; */
+    top: 90px;
+    background-color: var(--bg);
+    color: var(--white);
+    white-space: nowrap;
+    overflow: hidden;
+
+}
+
+.sidebar__container__deactive {
+    height: calc(100vh - 50px);
+
+    position: fixed;
+    top: 90px;
+    background-color: var(--bg);
+    color: var(--white);
+    white-space: nowrap;
+    overflow: hidden;
+
+}
+
+.dashboard {
+    padding: 0px 25px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.menu__items {
+
+    list-style: none;
+}
+
+.menu__links {
+    padding: 25px 0px;
+    vertical-align: baseline;
+}
